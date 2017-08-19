@@ -4,6 +4,9 @@
 
 The build configuration uses Gradle with enabled Jacoco test coverage reports.
 
+# Sample code
+- See `src/main/java/com/plugindev/editor/EditorStatusComponent` for a component which adds a UI element to newly created editors.
+
 # Directory structure
 
 - `src/main/java`: Java sources
