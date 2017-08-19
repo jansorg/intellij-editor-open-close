@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id>com.plugin-dev.editorOpenClose</id>
+  <name>www.plugin-dev.com Editor Open &amp; Close</name>
+  <version>0.1</version>
+  <vendor email="mail@plugin-dev.com" url="http://www.plugin-dev.com">Joachim Ansorg</vendor>
+
+  <description><![CDATA[
+      Sample code to demonstrate editor open and close handling.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="172.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <project-components>
+    <component>
+      <implementation-class>com.plugindev.editor.EditorStatusComponent</implementation-class>
+    </component>
+  </project-components>
+</idea-plugin>
